@@ -1,0 +1,12 @@
+.baris-ganjil{
+	background-color: yellow;
+	color: green;
+}
+td{
+ background-color:cyan;
+ color:red;
+ }
+ th{
+ background-color:Blue;
+ color:white;
+ }

@@ -1,0 +1,99 @@
+.wrap{
+	background:silver;
+	width: 900px;
+	margin: 10px auto;
+}
+
+/*bagian header*/
+.wrap .header{
+	background-image:url(gambar3.png);
+	/*height: 50px;*/
+	padding: 2px 10px;
+}
+
+/*akhir header*/
+
+/*bagian menu*/
+.wrap .menu{
+	background:yellow;
+}
+
+.wrap .menu{
+	padding: 0;
+	margin: 0;
+	background:brown;
+	overflow: hidden;
+}
+
+.wrap .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+
+}
+
+.menu ul li a{
+	text-decoration:none;
+	color: black;
+	padding: 3px;
+}
+
+.menu ul li a:hover{
+	background-color: lightskyblue;
+	color: white;
+}
+/*akhir menu*/
+
+.clear{
+	clear: both;
+}
+
+.badan{
+	height: 450px;
+}
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+
+	background-image:url(gambar4.png); 
+	float: left;	
+	width: 25%;
+	height: 100%;
+}
+
+.wrap .badan .sidebar a{
+	text-decoration-line: none;
+	color: black;
+}
+
+/*akhir sidebar*/
+
+.wrap .badan .content{
+	background-color:chocolate; 
+    float: left;
+	height: 100%;
+	width: 70%;	
+}
+
+.wrap .footer{
+	width: 100%;
+	padding: 10px;
+}
+
+body{
+	background: url(GAMBAR.PNG);
+}
+.clear.footer p{
+	text-align: center;
+	}
+.content h1{
+	text-align: center;
+}
+.content p{
+	text-align: justify;
+	color: yellow;
+	font-size: 20px;
+}
+
+.content ul li{
+	text-decoration-style: none;
+}
